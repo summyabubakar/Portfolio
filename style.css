@@ -98,10 +98,25 @@ ul {
 
 .image-holder3 {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   background-color: #ff2300;
   width: 500px;
   height: 600px;
   border-radius: 8%;
+}
+.image-holder3:hover{
+  background-color: #171718;
+}
+.play-btn:hover{
+    background-color: #171718;
+}
+.play-btn {
+  width: 100px;
+  position: absolute;
+  right: -40px;
+  height: 100px;
+  background: #ff2300;
+  border-radius: 50%;
 }
