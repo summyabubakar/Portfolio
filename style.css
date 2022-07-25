@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #171718;
   color: white;
 }
 nav {
   display: flex;
   justify-content: space-between;
   padding: 3% 5% 0 5%;
+  background-color: #171718;
 }
 ul {
   display: flex;
@@ -23,14 +23,41 @@ ul {
   text-transform: uppercase;
 }
 
-.logo {
-  font-size: 30px;
-}
-main {
+.first_section {
+  background-color: #171718;
+  height: 600px;
   display: flex;
   justify-content: space-between;
   padding: 3% 5% 0 5%;
   font-size: xx-large;
+}
+
+.image-holder1,
+.image-holder2,
+.image-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #171718;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  border: 2px solid white;
+}
+.image-holder2 {
+  width: 400px;
+  height: 400px;
+}
+
+.image-holder {
+  background: rgb(255, 35, 0);
+  width: 360px;
+  height: 360px;
+  border: none;
+}
+
+.logo {
+  font-size: 30px;
 }
 
 .me {
@@ -60,26 +87,21 @@ main {
   border-radius: 50%;
 }
 
-.image-holder1,
-.image-holder2,
-.image-holder {
+.second-section {
+  background-color: #fff;
+  margin: 7% 0 5% 5%;
+}
+
+.imag-radius2 {
+  border-radius: 8%;
+}
+
+.image-holder3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #171718;
-  border-radius: 50%;
-  width: 450px;
-  height: 450px;
-  border: 2px solid white;
-}
-.image-holder2 {
-  width: 400px;
-  height: 400px;
-}
-
-.image-holder {
-  background: rgb(255, 35, 0);
-  width: 360px;
-  height: 360px;
-  border: none;
+  background-color: #ff2300;
+  width: 500px;
+  height: 600px;
+  border-radius: 8%;
 }
