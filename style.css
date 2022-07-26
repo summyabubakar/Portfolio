@@ -74,6 +74,14 @@ ul {
   border-radius: 50px;
 }
 
+.button2{
+  padding: 1% 1%;
+  background-color: #ff2300;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 50px;
+}
+
 .button:hover {
   background: #fff;
   color: #ff2300;
@@ -88,17 +96,34 @@ ul {
 }
 
 .second-section {
+  display: flex;
+  justify-content: space-between;
   background-color: #fff;
   margin: 7% 0 5% 5%;
 }
 
 .imag-radius2 {
   border-radius: 8%;
+  z-index: 1;
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  z-index: 5;
+}
+
+.box2 {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  z-index: 5;
+  padding: 5% 2%;
 }
 
 .image-holder3 {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
   background-color: #ff2300;
@@ -106,17 +131,67 @@ ul {
   height: 600px;
   border-radius: 8%;
 }
-.image-holder3:hover{
+
+.image-holder3:hover {
   background-color: #171718;
 }
-.play-btn:hover{
-    background-color: #171718;
+
+.circle1 {
+  width: 140px;
+  position: absolute;
+  right: -57px;
+  top: 227px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #ff2300;
+  z-index: -1;
 }
+
+.circle1:hover{
+  border: 2px solid #171718;
+}
+
+.circle2 {
+  width: 120px;
+  position: absolute;
+  right: -46px;
+  top: 237px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #ff2300;
+  z-index: -1;
+}
+
+.circle2:hover{
+  border: 2px solid #171718;
+}
+
 .play-btn {
   width: 100px;
   position: absolute;
-  right: -40px;
+  right: -38px;
+  top: 41%;
   height: 100px;
   background: #ff2300;
   border-radius: 50%;
+  z-index: 3;
+}
+
+.play-btn:hover {
+  background-color: #171718;
+}
+
+.h1{
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman';
+}
+
+.p{
+  color: gray;
+  font-family:Arial;
+}
+
+.h2{
+  color: black;
 }
