@@ -93,6 +93,17 @@ ul {
   border-radius: 50px;
 }
 
+.button4 {
+  margin: 0px 0px 10px;
+  padding: 8px 18px;
+  width: 200px;
+  background-color: #ff2300;
+  color: #fff;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  border-radius: 50px;
+}
+
 .button:hover {
   background: #fff;
   color: #ff2300;
@@ -217,9 +228,9 @@ ul {
   font-family: serif;
 }
 .third-section {
-  background-color: rgb(255, 246, 241);
-  /*height: 600px;
-  display: flex; */
+  background-color: #fff6f1;
+  height: 800px;
+  /* display: flex; */
   justify-content: space-between;
   padding: 3% 5% 0 5%;
   font-size: xx-large;
@@ -230,10 +241,98 @@ ul {
   margin-top: 50px;
 }
 
+.box5 {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
 .oval1 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
   background-color: #fff;
+  color: black;
   width: 600px;
   height: 200px;
   border-radius: 60px;
   margin-right: 30px;
+  padding: 20px;
+  box-shadow: -0.5px -0.5px 20px 0.5px #f8dfd2;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff2300;
+  border-radius: 50%;
+  width: 70px;
+  font-weight: 800;
+  height: 70px;
+  margin-right: 30px;
+  margin-left: 50px;
+  color: #f8dfd2;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.h6 {
+  color: #ff2300;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.h7 {
+  color: #ff2300;
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.h4 {
+  font-size: x-large;
+  font-family: sans-serif;
+  margin: 25px 0;
+}
+
+.circle-holder {
+  position: relative;
+}
+
+.circle3 {
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ff2300;
+  top: -15px;
+  left: 35px;
+}
+
+.fourth-section > div {
+  text-align: center;
+  margin: 7% 0 5% 5%;
+}
+
+.header-div > h1 {
+  color: #ff2300;
+}
+
+.oval2 {
+  background-color: #fff;
+  color: black;
+  width: 350px;
+  height: 350px;
+  border-radius: 60px;
+  margin-right: 30px;
+  padding: 30px;
+  box-shadow: -0.5px -0.5px 20px 0.5px #f8dfd2;
+}
+
+.oval2:hover {
+  background-color: #29282b;
 }
