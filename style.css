@@ -129,8 +129,11 @@ ul {
 }
 
 .imag-radius3 {
+  position: absolute;
   border-radius: 50%;
-  margin: 5px 5px 5px 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box {
@@ -388,12 +391,13 @@ ul {
 .circle4 {
   width: 120px;
   position: absolute;
-  left: 120px;
-  top: -50px;
+  left: 50%;
+  top: 0;
   height: 120px;
   border-radius: 50%;
   border: 2px solid #ff2300;
   z-index: -1;
+  transform: translate(-50%, -50%);
 }
 
 .circle4:hover {
@@ -403,12 +407,13 @@ ul {
 .circle5 {
   width: 100px;
   position: absolute;
-  left: 130px;
-  top: -40px;
+  left: 50%;
+  top: 0;
   height: 100px;
   border-radius: 50%;
   border: 2px solid #ff2300;
   z-index: -1;
+  transform: translate(-50%, -50%);
 }
 
 .circle5:hover {
@@ -418,14 +423,33 @@ ul {
 .play-btn2 {
   width: 80px;
   position: absolute;
-  left: 140px;
-  top: -30px;
+  left: 50%;
+  top: 0;
   height: 80px;
   background: #ff2300;
   border-radius: 50%;
   z-index: 3;
+  transform: translate(-50%, -50%);
 }
 
 .play-btn2:hover {
   background-color: #ff2300;
+}
+
+.parent {
+  position: relative;
+  width: 200px;
+  background: orange;
+  height: 200px;
+}
+
+.child {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #000;
+  top: 0;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
